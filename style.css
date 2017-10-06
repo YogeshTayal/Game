@@ -1,0 +1,28 @@
+body{
+	padding: 20px;
+}
+
+.options{
+	float: left;
+	width: 240px;
+}
+
+.grid{
+	float: left;
+}
+
+.row{
+	float: left;
+}
+
+.cell{
+	margin: 2px 1px;
+	background-color: #999;
+	height: 50px;
+	width: 50px;
+}
+
+.highlighted{
+	background-color: green;
+	cursor: pointer;
+}

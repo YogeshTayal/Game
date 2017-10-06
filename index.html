@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Game</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+	<div class="options">
+		<div>
+			<label>Game Layout</label>
+			<select onchange="selectSize(this.value)">
+				<option value="">Select size</option>
+				<option value="3">3x3</option>
+				<option value="4">4x4</option>
+				<option value="5">5x5</option>
+			</select>	
+		</div>
+		<div>
+			<span>Timer: </span>
+			<span id="timer"></span>	
+		</div>
+		<div>
+			<span>Score: </span>
+			<span id="score"></span>	
+		</div>
+		<div>
+			<span>Highest Score: </span>
+			<span id="high_score"></span>	
+		</div>
+		
+	</div>
+	<div id="grid" class="grid">
+	</div>
+	<script type="text/javascript" src="main.js"></script>
+</body>
+</html>
